@@ -1,1 +1,25 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<>      a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <#me> ;
+        foaf:primaryTopic     <#me> .
+
+<#me>   a                      foaf:Person ;
+        foaf:family_name       "At" ;
+        foaf:givenname         "Tijana" ;
+        foaf:knows             [ a                  foaf:Person ;
+                                 rdfs:seeAlso       <www.dropbox.com%2Fs%2Ff1tdpv7se06y3aq%2Ffoaf.ttl%3Fdl%3D1%26fbclid%3DIwAR1MzrEBkI8aD65A3oWLiH-6y5k-zG5wo8YjDHRpMBFD4ZK6vD8LXR29cvk&h=AT0bIwUqwOJA-PPdXxSIGpU16cC2N9A4KuDv9uy4TUOZGJslZ6D9p8usmOA67HiBjS2r8gx26e3U_8pgB5bkBGlGoICdQonFxVGlBCe40yG4jDCreIZiqqvp6RvZzkEznxfebg> ;
+                                 foaf:mbox_sha1sum  "85f3954ed82bf97ce3882a1ccb654ff078f27efa" ;
+                                 foaf:name          "Milan"
+                               ] ;
+        foaf:mbox_sha1sum      "e76e95682ac63ed705394b9e0554557061452579" ;
+        foaf:name              "Tijana At" ;
+        foaf:schoolHomepage    <https://finki.ukim.mk/> ;
+        foaf:title             "Mrs" ;
+        foaf:workInfoHomepage  <https://www.simplilearn.com/tutorials/data-science-tutorial/what-is-data-science> .
 
